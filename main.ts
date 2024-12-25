@@ -121,7 +121,7 @@ namespace xgo {
 
     //////////----------------------------------- Basic--------------------------------/////////
     /**
-    * TODO: xgo write interface
+    * xgo write interface
     */
     function writeCommand(len: number, addr: number, data: number, wait: number) {
 
@@ -141,7 +141,7 @@ namespace xgo {
     }
 
     /**
-    * TODO: xgo write interface
+    * xgo write interface
     */
     function writeThreeCommand(len: number, addr: number, data0: number, data1: number, data2: number, wait: number) {
 
@@ -163,7 +163,7 @@ namespace xgo {
     }
 
     /**
-    * TODO: xgo write interface
+    * xgo write interface
     */
     function writeStrCommand(len: number, strlen: number, addr: number, str: string, wait: number) {
 
@@ -190,7 +190,7 @@ namespace xgo {
 
 
     /**
-    * TODO: xgo read interface
+    * xgo read interface
     */
     function readCommandOneData(len: number, addr: number, readlen: number, wait: number) {
 
@@ -212,7 +212,7 @@ namespace xgo {
     }
 
     /**
-    * TODO: xgo read interface
+    * xgo read interface
     */
     function readDoubleCommandOneData(len: number, addr: number, readlen: number, wait: number) {
 
